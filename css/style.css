@@ -168,3 +168,21 @@ background:#f1f2f7;
 	top: 20px;
 	position: sticky;
 }
+
+
+ul { 
+	list-style-type: '- ';
+}
+
+.footer {
+	height: 2em;
+}
+
+.copyright-notice {
+	font-size: 1.2em;
+	color: #bbb;
+}
+
+.header {
+	height: 3em;
+}
