@@ -212,6 +212,10 @@ ul {
     font-size: 1.25em;
 }
 
+.navbar a {
+    color: #777;
+}
+
 .navbar img {
     max-height: 100%;
 }
@@ -222,4 +226,30 @@ ul {
 
 .h-100 {
     height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.navbar-default {
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-items {
+    margin-left: auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: min-content min-content min-content;
+    align-items: center;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.product .header-img  {
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
