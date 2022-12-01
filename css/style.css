@@ -253,3 +253,19 @@ body {
     aspect-ratio: 16/9;
     object-fit: cover;
 }
+.bold {
+    font-weight: bold;
+}
+
+.links {
+    padding: 0;
+    list-style-type: none;
+}
+
+.external-links {
+    margin-top: 0.5em;
+}
+
+.external-links a img {
+    width: 2em;
+}
